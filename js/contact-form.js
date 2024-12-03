@@ -19,6 +19,6 @@ function sendForm() {
         window.location.href = newPath;
     } else {
         document.getElementById('result').textContent =
-            'Geçersiz e-posta. Lütfen geçerli bir e-posta adresi girin.';
+            'Неверный адрес электронной почты. Пожалуйста, введите действительный адрес электронной почты.';
     }
 }
